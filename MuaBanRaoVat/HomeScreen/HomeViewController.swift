@@ -12,6 +12,9 @@ class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDe
         listStories.count
     }
     
+    @IBAction func refreshAction(_ sender: Any) {
+        updateMenuChanges(menuId: menuSelected)
+    }
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         110
     }

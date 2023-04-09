@@ -141,6 +141,17 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rt7-Iw-JOb">
+                                <rect key="frame" x="304" y="90" width="72" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="reload">
+                                    <color key="baseForegroundColor" red="0.27744673990000002" green="0.80987197160000002" blue="0.58094752760000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="refreshAction:" destination="tgd-8Q-Txl" eventType="touchUpInside" id="a3h-KX-Zrr"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="fgX-Ck-NxU"/>
                         <color key="backgroundColor" systemColor="systemYellowColor"/>
