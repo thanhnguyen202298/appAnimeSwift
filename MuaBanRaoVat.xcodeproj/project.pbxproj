@@ -7,15 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB14C34129DA8B8C00F6C6D4 /* OweTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB14C34029DA8B8C00F6C6D4 /* OweTableViewCell.swift */; };
+		DB14C34429DA943E00F6C6D4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB14C34329DA943E00F6C6D4 /* LoginViewController.swift */; };
+		DB14C34729DAB6AD00F6C6D4 /* Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB14C34629DAB6AD00F6C6D4 /* Delegate.swift */; };
+		DB14C34929DABBB300F6C6D4 /* DeviceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB14C34829DABBB300F6C6D4 /* DeviceHelper.swift */; };
+		DB14C34B29DC23B300F6C6D4 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB14C34A29DC23B300F6C6D4 /* LoginModel.swift */; };
+		DB14C34D29DC338500F6C6D4 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB14C34C29DC338500F6C6D4 /* Extension.swift */; };
+		DB14C35029DE749200F6C6D4 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB14C34F29DE749200F6C6D4 /* RegisterViewController.swift */; };
 		DBE16A1329C569EB007C672D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE16A1229C569EB007C672D /* AppDelegate.swift */; };
 		DBE16A1529C569EB007C672D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE16A1429C569EB007C672D /* SceneDelegate.swift */; };
 		DBE16A1729C569EB007C672D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE16A1629C569EB007C672D /* ViewController.swift */; };
 		DBE16A1A29C569EB007C672D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBE16A1829C569EB007C672D /* Main.storyboard */; };
 		DBE16A1C29C569EC007C672D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBE16A1B29C569EC007C672D /* Assets.xcassets */; };
 		DBE16A1F29C569EC007C672D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBE16A1D29C569EC007C672D /* LaunchScreen.storyboard */; };
+		DBE16A2A29D04812007C672D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE16A2929D04812007C672D /* HomeViewController.swift */; };
+		DBE16A2C29D0498F007C672D /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE16A2B29D0498F007C672D /* PostViewController.swift */; };
+		DBE16A2E29D049C4007C672D /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE16A2D29D049C4007C672D /* AccountViewController.swift */; };
+		DBE16A3329D58C31007C672D /* StoryCellHomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE16A3229D58C31007C672D /* StoryCellHomeTableViewCell.swift */; };
+		DBE16A3629D59239007C672D /* StoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE16A3529D59239007C672D /* StoryModel.swift */; };
+		DBE16A3929D73B70007C672D /* HttpData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE16A3829D73B70007C672D /* HttpData.swift */; };
+		DBE16A3B29D74D12007C672D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE16A3A29D74D12007C672D /* Constants.swift */; };
+		DBE16A3D29D74FBA007C672D /* ResponseCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE16A3C29D74FBA007C672D /* ResponseCategory.swift */; };
+		DBE16A4029D7E513007C672D /* UiHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE16A3F29D7E513007C672D /* UiHelpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DB14C34029DA8B8C00F6C6D4 /* OweTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OweTableViewCell.swift; sourceTree = "<group>"; };
+		DB14C34329DA943E00F6C6D4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DB14C34629DAB6AD00F6C6D4 /* Delegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delegate.swift; sourceTree = "<group>"; };
+		DB14C34829DABBB300F6C6D4 /* DeviceHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceHelper.swift; sourceTree = "<group>"; };
+		DB14C34A29DC23B300F6C6D4 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		DB14C34C29DC338500F6C6D4 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		DB14C34F29DE749200F6C6D4 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		DBE16A0F29C569EB007C672D /* MuaBanRaoVat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MuaBanRaoVat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBE16A1229C569EB007C672D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBE16A1429C569EB007C672D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +47,15 @@
 		DBE16A1B29C569EC007C672D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBE16A1E29C569EC007C672D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DBE16A2029C569EC007C672D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBE16A2929D04812007C672D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		DBE16A2B29D0498F007C672D /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		DBE16A2D29D049C4007C672D /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		DBE16A3229D58C31007C672D /* StoryCellHomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryCellHomeTableViewCell.swift; sourceTree = "<group>"; };
+		DBE16A3529D59239007C672D /* StoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryModel.swift; sourceTree = "<group>"; };
+		DBE16A3829D73B70007C672D /* HttpData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpData.swift; sourceTree = "<group>"; };
+		DBE16A3A29D74D12007C672D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		DBE16A3C29D74FBA007C672D /* ResponseCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseCategory.swift; sourceTree = "<group>"; };
+		DBE16A3F29D7E513007C672D /* UiHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiHelpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +69,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DB14C33F29DA8B5900F6C6D4 /* TableController */ = {
+			isa = PBXGroup;
+			children = (
+				DB14C34029DA8B8C00F6C6D4 /* OweTableViewCell.swift */,
+			);
+			path = TableController;
+			sourceTree = "<group>";
+		};
+		DB14C34229DA941E00F6C6D4 /* LoginScreen */ = {
+			isa = PBXGroup;
+			children = (
+				DB14C34329DA943E00F6C6D4 /* LoginViewController.swift */,
+			);
+			path = LoginScreen;
+			sourceTree = "<group>";
+		};
+		DB14C34529DAB69C00F6C6D4 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				DB14C34629DAB6AD00F6C6D4 /* Delegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		DB14C34E29DE73ED00F6C6D4 /* RegisterScreen */ = {
+			isa = PBXGroup;
+			children = (
+				DB14C34F29DE749200F6C6D4 /* RegisterViewController.swift */,
+			);
+			path = RegisterScreen;
+			sourceTree = "<group>";
+		};
 		DBE16A0629C569EB007C672D = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +120,13 @@
 		DBE16A1129C569EB007C672D /* MuaBanRaoVat */ = {
 			isa = PBXGroup;
 			children = (
+				DB14C34529DAB69C00F6C6D4 /* Delegates */,
+				DBE16A3E29D7E4F3007C672D /* Helpers */,
+				DBE16A3729D73AEA007C672D /* Data */,
+				DBE16A3429D59224007C672D /* models */,
+				DBE16A2829D047D7007C672D /* AccountScreen */,
+				DBE16A2629D047AB007C672D /* HomeScreen */,
+				DBE16A2729D047C0007C672D /* PostScreen */,
 				DBE16A1229C569EB007C672D /* AppDelegate.swift */,
 				DBE16A1429C569EB007C672D /* SceneDelegate.swift */,
 				DBE16A1629C569EB007C672D /* ViewController.swift */,
@@ -65,6 +136,71 @@
 				DBE16A2029C569EC007C672D /* Info.plist */,
 			);
 			path = MuaBanRaoVat;
+			sourceTree = "<group>";
+		};
+		DBE16A2629D047AB007C672D /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				DBE16A2F29D58BA0007C672D /* controllers */,
+				DBE16A2929D04812007C672D /* HomeViewController.swift */,
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		DBE16A2729D047C0007C672D /* PostScreen */ = {
+			isa = PBXGroup;
+			children = (
+				DBE16A2B29D0498F007C672D /* PostViewController.swift */,
+			);
+			path = PostScreen;
+			sourceTree = "<group>";
+		};
+		DBE16A2829D047D7007C672D /* AccountScreen */ = {
+			isa = PBXGroup;
+			children = (
+				DB14C34E29DE73ED00F6C6D4 /* RegisterScreen */,
+				DB14C34229DA941E00F6C6D4 /* LoginScreen */,
+				DB14C33F29DA8B5900F6C6D4 /* TableController */,
+				DBE16A2D29D049C4007C672D /* AccountViewController.swift */,
+			);
+			path = AccountScreen;
+			sourceTree = "<group>";
+		};
+		DBE16A2F29D58BA0007C672D /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DBE16A3229D58C31007C672D /* StoryCellHomeTableViewCell.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		DBE16A3429D59224007C672D /* models */ = {
+			isa = PBXGroup;
+			children = (
+				DBE16A3529D59239007C672D /* StoryModel.swift */,
+				DB14C34A29DC23B300F6C6D4 /* LoginModel.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		DBE16A3729D73AEA007C672D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				DBE16A3829D73B70007C672D /* HttpData.swift */,
+				DBE16A3A29D74D12007C672D /* Constants.swift */,
+				DBE16A3C29D74FBA007C672D /* ResponseCategory.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		DBE16A3E29D7E4F3007C672D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DBE16A3F29D7E513007C672D /* UiHelpers.swift */,
+				DB14C34829DABBB300F6C6D4 /* DeviceHelper.swift */,
+				DB14C34C29DC338500F6C6D4 /* Extension.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +274,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB14C34429DA943E00F6C6D4 /* LoginViewController.swift in Sources */,
+				DBE16A3329D58C31007C672D /* StoryCellHomeTableViewCell.swift in Sources */,
 				DBE16A1729C569EB007C672D /* ViewController.swift in Sources */,
 				DBE16A1329C569EB007C672D /* AppDelegate.swift in Sources */,
+				DB14C35029DE749200F6C6D4 /* RegisterViewController.swift in Sources */,
+				DBE16A2E29D049C4007C672D /* AccountViewController.swift in Sources */,
+				DBE16A3D29D74FBA007C672D /* ResponseCategory.swift in Sources */,
 				DBE16A1529C569EB007C672D /* SceneDelegate.swift in Sources */,
+				DBE16A3B29D74D12007C672D /* Constants.swift in Sources */,
+				DB14C34B29DC23B300F6C6D4 /* LoginModel.swift in Sources */,
+				DB14C34D29DC338500F6C6D4 /* Extension.swift in Sources */,
+				DBE16A3629D59239007C672D /* StoryModel.swift in Sources */,
+				DB14C34129DA8B8C00F6C6D4 /* OweTableViewCell.swift in Sources */,
+				DB14C34729DAB6AD00F6C6D4 /* Delegate.swift in Sources */,
+				DBE16A2A29D04812007C672D /* HomeViewController.swift in Sources */,
+				DBE16A3929D73B70007C672D /* HttpData.swift in Sources */,
+				DB14C34929DABBB300F6C6D4 /* DeviceHelper.swift in Sources */,
+				DBE16A2C29D0498F007C672D /* PostViewController.swift in Sources */,
+				DBE16A4029D7E513007C672D /* UiHelpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
